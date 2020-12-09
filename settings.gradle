@@ -1,2 +1,3 @@
+include ':vector_common'
 include ':app'
 rootProject.name = "Vector_CommonLibrary"
