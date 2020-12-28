@@ -10,5 +10,7 @@ public enum ConfigType {
     CONFIG_READY,
     ICON,
     LOADER_DELAYED,
-    INTERCEPTOR
+    INTERCEPTOR,
+    HANDLER,
+    LOGGER_LEVEL
 }
