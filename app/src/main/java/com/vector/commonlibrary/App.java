@@ -24,7 +24,7 @@ public class App extends Application {
         super.onCreate();
 
         Vector.init(this)
-                .withLoaderDelayed(2000)
+                .withLoaderDelayed(1000)
                 .initLogger(LoggerUtil.LoggerLevel.VERBOSE)
                 .withApiHost("http://192.168.31.80:20002/api/")
                 .configure();
