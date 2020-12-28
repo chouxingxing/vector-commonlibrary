@@ -26,7 +26,7 @@ public class App extends Application {
         Vector.init(this)
                 .withLoaderDelayed(1000)
                 .initLogger(LoggerUtil.LoggerLevel.VERBOSE)
-                .withApiHost("http://192.168.31.80:20002/api/")
+                .withApiHost("http://19.168.31.80:20002/api/")
                 .configure();
     }
 
